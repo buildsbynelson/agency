@@ -3984,6 +3984,21 @@ blockquote {
   display:flex;
   position:relative
 }
+
+.navbar-logo-wrapper {
+  width: 150px !important;
+  height: 38px !important;
+  display: block !important;
+  overflow: hidden;
+}
+
+.navbar-logo {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  display: block;
+}
+
 .nav-text-link-2 {
   position:absolute
 }
@@ -4570,8 +4585,24 @@ blockquote {
 }
 .navbar-logo-wrapper.w--current {
   z-index:999;
-  position:relative
+  position:relative;
+  
 }
+
+.navbar-logo-wrapper {
+  width: 150px !important;
+  height: 37px !important;
+  display: block !important;
+  overflow: hidden;
+}
+
+.navbar-logo {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  display: block;
+}
+
 .hamburger-menu {
   flex-flow:column;
   display:flex
